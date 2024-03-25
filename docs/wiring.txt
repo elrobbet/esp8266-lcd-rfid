@@ -1,0 +1,19 @@
+Lcd16x2I2C
+-lcd16x2I2C gnd to bus gnd
+-lcd16x2I2C scl to nodemcu d1
+-lcd16x2I2C sda to nodemcu d2
+-lcd16x2I2C vcc to nodemcu 3v
+
+RFID rc522
+-RFID 3.3v to nodemcu 3v3
+-RFID gnd to bus gnd
+-RFID MISO to nodemcu d6
+-RFID MOSI to nodemcu d7
+-RFID rst to nodemcu d3
+-RFID sck to nodemcu d5
+-RFID sda to nodemcu d4
+
+LED basic green 5mm
+-LedGreen vin to nodemcu d8
+-connect res100O
+-res100O con0 to bus gnd
